@@ -1,0 +1,43 @@
+body {
+        background: #CB356B;  
+        background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  
+        background: linear-gradient(to right, #BD3F32, #CB356B); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .beacon {
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .beacon img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .beacon a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        background-color:coral;
+        color: antiquewhite;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+    }
+
+    .beacon a:hover{
+        background-color: darkgray;
+    }
